@@ -1,0 +1,193 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'body' %}
+
+
+  <main id="main">
+
+    <!-- Portfolio Details Page Title & Breadcrumbs -->
+    <div data-aos="fade" class="page-title bg-secondary text-white">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex  ">
+            <div class="col-lg-8">
+              <h1 class="text-white">Linux training course online</h1>
+              <p class="mb-0">The advancement of computer languaging has made it easier for programmers to solve complex coding problems conveniently.</p> This has reduced time consumption and solved the crisis of the firms with cloud computing. The Python Online Courseat aims to teach students about the complexities of Python and ways to understand the language effectivel </p>
+			   <div class="row">
+			     <div class="col-6 ">
+			       <button type="button" class="btn btn-warning btn-block container-fluid ">Interview Question</button>
+				 </div>  
+				 <div class="col-6">  
+				    <button type="button" class="btn btn-warning btn-block container-fluid  ">Apply Now</button>
+				 </div> 
+				</div>   
+		     </div>
+			<div class="col-lg-4">
+			  <img src="{% static 'img/portfolio/linux.png' %}" class="w-100 " alt="python">
+			</div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li class="current">Course Details</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio-details Section - Portfolio Details Page -->
+    <section id="portfolio-details" class="portfolio-details">
+
+      <div class="container-fluid  " data-aos="fade-up">
+        <nav class="navbar navbar-expand-sm text-dark bg-white  sticky-top">
+		<div class="container-fluid  ">
+			
+			<div class="collapse navbar-collapse  " id="mynavbar">
+				<ul class="navbar-nav d-flex justify-content-center">
+					<li class="nav-item mx-5 py-2 ">
+						<h5><a class="nav-link " href="#Overview">Overview</a></h5>
+					</li>
+					<li class="nav-item mx-5 py-2">
+						<h5><a class="nav-link" href="#Upcoming Batches">Upcoming Batches</a></h5>
+					</li>
+					<li class="nav-item mx-5 py-2">
+						<h5><a class="nav-link" href="#training">Training Options</a></h5>
+					</li>
+					<li class="nav-item mx-5 py-2">
+						<h5><a class="nav-link" href="#Exam">Exam</a></h5>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</nav>
+        
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-9" data-aos="fade-up">
+            <div class="portfolio-description">
+			 <section id="Overview">
+                <h2 >Overview</h2>
+               <p>
+               We also focus on the basics of the subject and try to incorporate practical application utilities of the Python language. This way the students can approach the real-life computing problem without much trouble. Python Online Course Certification can be applied to other branches of computing as well. For example, if an aspirant is fully equipped with the idea of handling python
+               </p>
+               <p>
+                he can also approach subjects like data science and machine learning problems easily. Our objective at the institute is to prepare the aspirants for curating a magnificent and successful career for themselves.
+               </p>
+             </section>
+			 </div>
+              <div class="portfolio-description  ">
+			   <section id="Upcoming Batches">
+                <h2 >Upcoming Batches</h2>
+			   
+			      <ul class="list-group list-group-horizontal fs-5 ">
+                      <li class="list-group-item">Nov 07</li>
+                      <li class="list-group-item">SAT & SUN (two days) <br><small class="text-danger fs-6">weekend batch</small></li>
+                     <li class="list-group-item"><span class="badge rounded-pill bg-danger">&star;filling fast</span><br>Timings - 09:00 AM to 11:00 AM</li>
+                  </ul>
+                   <ul class="list-group list-group-horizontal fs-5 ">
+                      <li class="list-group-item">Nov 21</li>
+                      <li class="list-group-item">SAT & SUN (6 WEEKS) <br><small class="text-danger fs-6">weekend batch</small></li>
+                     <li class="list-group-item"><span class="badge rounded-pill bg-danger">&star;filling fast</span><br>Timings - 01:00 PM to 03:00 PM</li>
+                  </ul>
+				   <ul class="list-group list-group-horizontal fs-5 ">
+                      <li class="list-group-item">Dec 01 </li>
+                      <li class="list-group-item"> MON , THU (6 WEEKS)</li>
+                     <li class="list-group-item"><span class="badge rounded-pill bg-danger">&star;filling fast</span><br>Timings - 09:00 AM to 11:00 AM</li>
+                  </ul>
+				</section>  
+              </div>
+			  <div class="portfolio-description">
+			   <section id="training">
+                  <h2 >Training Options</h2>
+				  <div class="row">
+                     <div class="card   border border-white" style="width: 300px;">
+					    <div class="card-header border border-white fw-bold text-center">BLENDED LEARNING</div>
+                        <div class="card-body"><ul class="list-group">
+                                                     <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;30 hands-on projects to perfect the skills learnt</li>
+                                                     <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;3 simulation test papers for self-assessment</li>
+                                                     <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;Lab access to practice live during sessions</li>
+                                                    <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;24x7 learner assistance and support</li>
+                                              
+                                               </ul>
+					    </div>
+                        <div class="card-footer border border-white"><button type="button" class="btn btn-danger rounded-pill">Enquire Now</button></div>
+				     </div>
+					  <div class="card   border border-white" style="width: 300px;">
+					    <div class="card-header border border-white fw-bold text-center">SELF LEARNING</div>
+                        <div class="card-body"><ul class="list-group">
+                                              
+                                                 <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;30 hands-on projects to perfect the skills learnt</li>
+                                                 <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;3 simulation test papers for self-assessment</li>
+                                                 <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;Lab access to practice live during sessions</li>
+                                                 <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;24x7 learner assistance and support</li>
+                                               </ul>
+					    </div>
+                        <div class="card-footer border border-white"><button type="button" class="btn btn-danger rounded-pill">Enquire Now</button></div>
+				     </div>
+					  <div class="card   border border-white" style="width: 300px;">
+					    <div class="card-header border border-white fw-bold text-center">CORPORATE LEARNING</div>
+                        <div class="card-body"><ul class="list-group">
+                                                    <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;30 hands-on projects to perfect the skills learnt</li>
+                                                    <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;3 simulation test papers for self-assessment</li>
+                                                    <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;Lab access to practice live during sessions</li>
+                                                    <li class="list-group-item"><i class='bx bx-check'></i>&nbsp;24x7 learner assistance and support</li>
+                                             
+                                               </ul>
+					    </div>
+                        <div class="card-footer border border-white"><button type="button" class="btn btn-danger rounded-pill">Enquire Now</button></div>
+				     </div>
+				 </div>	 
+              </section>
+             </div >
+               <div class="portfolio-description">
+			     <section id="Exam">
+				       <h2> Training Course Online Exam & Certification</h2>
+					   <p> Live your dream to be hired by top IT Companies with us, offering an array of professional courses with 100% Job Assistance</p>
+					   <div class="row">
+					     <div class="col-6">
+					       <img src="{% static 'img/portfolio/hcl2.png' %}" alt="" class="flex-shrink-0 h-50 w-50 ">
+					       &nbsp; &nbsp; &nbsp;
+						   <img src="{% static 'img/portfolio/amazon.png' %}" alt="" class="flex-shrink-0 h-50 w-25">
+						   <br>
+						   <br>
+						   <button type="button" class="btn btn-danger container-fluid">get it</button>
+                          </div>
+						 
+						 <div class="col-6">
+						   <img src="{% static 'img/portfolio/certificate.png' %}" alt="" class="flex-shrink-0 h-100 w-100 ">
+						 </div>
+					   </div>
+				 
+				 </section>
+			  </div> 
+            
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Get more information</h3>
+              <ul>
+                <li> <input type="text" class="rounded-pill p-1 " placeholder="Full name"> </li>
+                <li> <input type="text"  class="rounded-pill p-1" placeholder="Email"> </li>
+                <li>Enquiry for <input type="radio" name="one">myself <input type="radio" name ="one">company </li>
+                <li> <input type="textarea"  class="rounded-pill p-1" placeholder="write message"> </li>
+                <li><a href="#" class="btn btn-danger rounded-pill"> submit </a> </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Portfolio-details Section -->
+
+  </main>
+
+  {% endblock 'body' %}
+  
